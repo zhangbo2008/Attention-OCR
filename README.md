@@ -1,3 +1,32 @@
+
+先学习seq2seq模型.
+https://www.jianshu.com/p/b2b95f945a98
+好像没什么东西.
+
+就是下面这个核心图而已,其实在ocr里面已经大量使用这种rnn网络了.在transformer里面也是这样.
+
+                                  machine   learning 
+                                     ^       ^   
+                                    |         |   
+                             z0---->z1-----  > z2
+                                   |        |
+网络大概是这样                       bos    machine
+h0--->-h1--->-h2--->h3---->h4---->-c
+      ^      ^      ^      ^
+      |      |      |      |
+      机     器     学      习
+
+
+机器学习是输入
+bos,machinie也是输入
+
+h1,...h4,c和machinie,learning都是输出.
+
+
+
+
+
+
 # Attention-OCR
 Authours: [Qi Guo](http://qiguo.ml) and [Yuntian Deng](https://github.com/da03)
 
