@@ -22,7 +22,7 @@ bos,machinie也是输入
 
 h1,...h4,c和machinie,learning都是输出.
 
-
+所以seq2seq是一个主流的做序列化问题必须使用的技术.
 
 
 
